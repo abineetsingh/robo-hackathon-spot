@@ -49,7 +49,7 @@ def main():
         # Control Spot by velocity in m/s (or in rad/s for rotation)
         spot.move_by_velocity_control(v_x=-0.3, v_y=0, v_rot=0, cmd_duration=2)
         capture_image()
-        time.sleep(3)
+        time.sleep(3000)
 
 
 if __name__ == '__main__':
