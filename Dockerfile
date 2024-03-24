@@ -1,3 +1,4 @@
+FROM arm64v8/python:3.8 as build
 FROM ghcr.io/merklebot/hackathon-arm-image:master as build
 
 ENV PYTHONDONTWRITEBYTECODE 1
